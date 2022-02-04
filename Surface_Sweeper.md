@@ -193,7 +193,9 @@
 
 エフェクトを製作するにあたり心掛けたこととして『余韻』がある
 <img src="captureimg/effect1.png" width = "25%"><img src="captureimg/effect2.png" width = "25.2%"><br>
+
 <img src="captureimg/effect3.png" width = "25%"><img src="captureimg/effect4.png" width = "25%"><br>
+
 たとえば、上の画像はエネミーが撃破されたときに発生する爆発エフェクトの時間経過を切り取ったものであり、左上　→　右上　→　左下　→　右下の順でエフェクトが再生される。
 
 - メインになる明るい部分とパーティクルが発生。

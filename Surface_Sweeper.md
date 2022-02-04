@@ -191,7 +191,7 @@
 ### エフェクト
 本ゲーム内のエフェクトはEffekseerを使用して製作している。
 
-エフェクトを製作するにあたり心掛けたこととして『余韻』がある
+エフェクトを製作するにあたり心掛けたこととして『余韻』がある<br>
 <img src="captureimg/effect1.png" width = "25%"><img src="captureimg/effect2.png" width = "25.2%"><br>
 
 <img src="captureimg/effect3.png" width = "25%"><img src="captureimg/effect4.png" width = "25%"><br>

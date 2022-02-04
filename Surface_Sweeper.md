@@ -182,7 +182,7 @@
 <img src="captureimg/UI.PNG" width = "75%"><br>
 本ゲーム中のUI素材はPhotoshopElementsを使用して製作している。
 配置の工夫として、画面の上部だけを見れば全ての情報が分かるように配置を行っている。
-デザインとしては、直線的で無機質な造形に加え、半透明部分を作ったり、青緑系統の色を使用することでHUDのような見た目をイメージしている。<br>
+デザインとしては、直線的で無機的な造形に加え、半透明部分を作ったり、青緑系統の色を使用することでHUDのような見た目をイメージしている。<br>
 
 <img src="captureimg/ui1.png" width = "25%"> <img src="captureimg/ui4.png" width = "25%"> <img src="captureimg/ui5.png" width = "25%"><br>
 
@@ -191,7 +191,8 @@
 ### エフェクト
 本ゲーム内のエフェクトはEffekseerを使用して製作している。
 
-エフェクトを製作するにあたり心掛けたこととして『余韻』がある<br>
+エフェクトを製作するにあたり心掛けたこととして『余韻』がある。<br>
+
 <img src="captureimg/effect1.png" width = "25%"><img src="captureimg/effect2.png" width = "25.2%"><br>
 
 <img src="captureimg/effect3.png" width = "25%"><img src="captureimg/effect4.png" width = "25%"><br>

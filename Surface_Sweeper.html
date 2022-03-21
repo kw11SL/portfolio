@@ -376,6 +376,7 @@ code {
 <li>技術解説
 <ol>
 <li>川瀬式ブルーム</li>
+<li>Disney based PBR</li>
 <li>球面移動</li>
 </ol>
 </li>
@@ -405,6 +406,7 @@ code {
 <li>制作期間:5ヵ月</li>
 <li>Github: <a href="https://github.com/kw11SL/miniEngine">https://github.com/kw11SL/miniEngine</a></li>
 <li>動画URL: <a href="https://www.youtube.com/watch?v=SCnUNTBmLDM">https://www.youtube.com/watch?v=SCnUNTBmLDM</a></li>
+<li>ポートフォリオURL: <a href="https://competent-chandrasekhar-7c6367.netlify.app/surface_sweeper">https://competent-chandrasekhar-7c6367.netlify.app/surface_sweeper</a></li>
 </ul>
 <h3 id="2%E6%93%8D%E4%BD%9C%E6%96%B9%E6%B3%95">2.操作方法</h3>
 <h5 id="">___________________________________________________________________________________________________</h5>
@@ -536,7 +538,25 @@ code {
 <p><img src="captureimg/bloom8.png" width = "30%"> <img src="captureimg/bloom10.png" width = "30%"><br></p>
 <p><img src="captureimg/bloom11.png" width = "30%"><br>
 左上:ブラーと縮小3回目　右上:ブラーと縮小4回目　左下:シーンに最終合成</p>
-<h4 id="2%E7%90%83%E9%9D%A2%E7%A7%BB%E5%8B%95">2.球面移動</h4>
+<h4 id="2disney-based-pbr">2.Disney based PBR</h4>
+<p>本ゲームでは2012年のSHIGRAPHでウォルト・ディズニーが発表した論文を元にしたPBRである、Desney based PBRを行っている。</p>
+<p>この物理ベースのシェーダーが開発された目的として、単一のシェーダーで物理的なパラメータの変更を行うことで様々な表現を可能にするためだったとされている。</p>
+<p>本ゲームではパラメータとして、<br>
+・アルベドカラー
+・スペキュラカラー
+・メタリックスムース</p>
+<p>の3つのパラメータ―を使用している。</p>
+<p>ライティングに際し、拡散反射にはランバート拡散反射とフレネル反射を考慮した拡散反射を合成したもの、鏡面反射にはクックトランスモデルを利用した鏡面反射を利用して実装を行っている。</p>
+<p>####フレネル反射
+フレネル反射とは光が物体の表面に入射する際の入射角が大きくなると鏡面反射率が上がり、入射角が小さくなると拡散反射率が大きくなるというものである。</p>
+<p>####クックトランスモデルを利用した鏡面反射<br>
+スペキュラ反射は金属、非金属問わず全ての物体で発生し、金属度が高い表面では物体の色が反射され、金属度が低い表面では光の色が反射される。</p>
+<p>以下はPBRと非PBRのレンダリング結果である。<br>
+<img src="captureimg/pbr_1.png" width = "60%"><br>
+<br><img src="captureimg/pbr_2.png" width = "60%"><br></p>
+<p>上:PBRあり<br>
+下:PBRなし</p>
+<h4 id="3%E7%90%83%E9%9D%A2%E7%A7%BB%E5%8B%95">3.球面移動</h4>
 <p>本ゲームではキャラクターや自機弾がステージの地形に沿って動くようになっている。<br>
 <img src="球面移動説明画像/sphericalMove1.png" width = "20%"><br>
 図の状態からキャラクターを右方向に移動させるとする。</p>

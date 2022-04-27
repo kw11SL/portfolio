@@ -161,14 +161,14 @@
 という処理を複数回繰り返し、最終的にダウンサンプリングされた複数のテクスチャをシーンの解像度に引き延ばして加算合成を行うことで一般的なブルーム処理より綺麗なブルーム処理を実現するというものである。  
 以下の画像はRenderDocでキャプチャしたブルーム処理中の様子である。  
 本ゲーム内ではブラーと縮小の処理を4回行っている。  
-<img src="captureimg/bloom1.png" width = "30%"> <img src="captureimg/bloom2.png" width = "30%"><br>
+<img src="captureimg/bloom1_a.png" width = "30%"> <img src="captureimg/bloom2_a.png" width = "30%"><br>
 
-<img src="captureimg/bloom4.png" width = "30%"> <img src="captureimg/bloom6.png" width = "30%"><br>
+<img src="captureimg/bloom4_a.png" width = "30%"> <img src="captureimg/bloom6_a.png" width = "30%"><br>
 左上:元のシーン　右上:輝度抽出テクスチャ　左下:ブラーと縮小1回目　右下:ブラーと縮小2回目  
 
-<img src="captureimg/bloom8.png" width = "30%"> <img src="captureimg/bloom10.png" width = "30%"><br>
+<img src="captureimg/bloom8_a.png" width = "30%"> <img src="captureimg/bloom10_a.png" width = "30%"><br>
 
-<img src="captureimg/bloom11.png" width = "30%"><br>
+<img src="captureimg/bloom11_c.png" width = "30%"><br>
 左上:ブラーと縮小3回目　右上:ブラーと縮小4回目　左下:シーンに最終合成  
 
 #### 2.Disney based PBR
@@ -217,14 +217,13 @@
 ##### ___________________________________________________________________________________________________  
 ### UI
 
-<img src="captureimg/UI.PNG" width = "35%"><br>
+<img src="captureimg/ui_2.PNG" width = "35%"><br>
 本ゲーム中のUI素材はPhotoshopElementsを使用して製作している。<br>
 
-<img src="captureimg/UI_a.PNG" width = "35%"><br>
 配置の工夫として、画面の上部だけを見れば全ての情報が分かるように配置を行っている。<br>
 デザインとしては、直線的で無機的な造形に加え、半透明部分を作ったり、青緑系統の色を使用することでHUDのような見た目をイメージしている。<br>
 
-<img src="captureimg/ui1.png" width = "15%"> <img src="captureimg/ui4.png" width = "15%"> <img src="captureimg/ui5.png" width = "15%"><br>
+<img src="captureimg/ui1_a.png" width = "15%"> <img src="captureimg/ui4_a.png" width = "15%"> <img src="captureimg/ui5_a.png" width = "15%"><br>
 
 また、上の図のように文字部分の色とアイコンや数字のイメージカラーを統一することで、表示物を見たときに認識しやすくなるよう心掛けた。
 

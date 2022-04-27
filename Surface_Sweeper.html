@@ -532,11 +532,11 @@ code {
 <p>という処理を複数回繰り返し、最終的にダウンサンプリングされた複数のテクスチャをシーンの解像度に引き延ばして加算合成を行うことで一般的なブルーム処理より綺麗なブルーム処理を実現するというものである。<br>
 以下の画像はRenderDocでキャプチャしたブルーム処理中の様子である。<br>
 本ゲーム内ではブラーと縮小の処理を4回行っている。<br>
-<img src="captureimg/bloom1.png" width = "30%"> <img src="captureimg/bloom2.png" width = "30%"><br></p>
-<p><img src="captureimg/bloom4.png" width = "30%"> <img src="captureimg/bloom6.png" width = "30%"><br>
+<img src="captureimg/bloom1_a.png" width = "30%"> <img src="captureimg/bloom2_a.png" width = "30%"><br></p>
+<p><img src="captureimg/bloom4_a.png" width = "30%"> <img src="captureimg/bloom6_a.png" width = "30%"><br>
 左上:元のシーン　右上:輝度抽出テクスチャ　左下:ブラーと縮小1回目　右下:ブラーと縮小2回目</p>
-<p><img src="captureimg/bloom8.png" width = "30%"> <img src="captureimg/bloom10.png" width = "30%"><br></p>
-<p><img src="captureimg/bloom11.png" width = "30%"><br>
+<p><img src="captureimg/bloom8_a.png" width = "30%"> <img src="captureimg/bloom10_a.png" width = "30%"><br></p>
+<p><img src="captureimg/bloom11_c.png" width = "30%"><br>
 左上:ブラーと縮小3回目　右上:ブラーと縮小4回目　左下:シーンに最終合成</p>
 <h4 id="2disney-based-pbr">2.Disney based PBR</h4>
 <p>本ゲームでは2012年のSHIGRAPHでウォルト・ディズニーが発表した論文を元にしたPBRである、Desney based PBRを行っている。</p>
@@ -568,12 +568,11 @@ code {
 <h3 id="5%E3%81%93%E3%81%A0%E3%82%8F%E3%82%8A%E5%B7%A5%E5%A4%AB%E3%81%97%E3%81%9F%E7%82%B9">5.こだわり、工夫した点</h3>
 <h5 id="">___________________________________________________________________________________________________</h5>
 <h3 id="ui">UI</h3>
-<p><img src="captureimg/UI.PNG" width = "35%"><br>
+<p><img src="captureimg/ui_2.PNG" width = "35%"><br>
 本ゲーム中のUI素材はPhotoshopElementsを使用して製作している。<br></p>
-<p><img src="captureimg/UI_a.PNG" width = "35%"><br>
-配置の工夫として、画面の上部だけを見れば全ての情報が分かるように配置を行っている。<br>
+<p>配置の工夫として、画面の上部だけを見れば全ての情報が分かるように配置を行っている。<br>
 デザインとしては、直線的で無機的な造形に加え、半透明部分を作ったり、青緑系統の色を使用することでHUDのような見た目をイメージしている。<br></p>
-<p><img src="captureimg/ui1.png" width = "15%"> <img src="captureimg/ui4.png" width = "15%"> <img src="captureimg/ui5.png" width = "15%"><br></p>
+<p><img src="captureimg/ui1_a.png" width = "15%"> <img src="captureimg/ui4_a.png" width = "15%"> <img src="captureimg/ui5_a.png" width = "15%"><br></p>
 <p>また、上の図のように文字部分の色とアイコンや数字のイメージカラーを統一することで、表示物を見たときに認識しやすくなるよう心掛けた。</p>
 <h3 id="%E3%82%A8%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88">エフェクト</h3>
 <p>本ゲーム内のエフェクトはEffekseerを使用して製作している。

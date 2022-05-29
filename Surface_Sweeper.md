@@ -1,5 +1,5 @@
 ## 河原電子ビジネス専門学校
-## ゲームクリエイター科　　2年　　越智　翔平
+## ゲームクリエイター科　　3年　　越智　翔平
 ##### ___________________________________________________________________________________________________
 
 
@@ -23,7 +23,7 @@
 
 ゲーム概要：  
 カプセル状の球面ステージの各所から出現してくるエネミーをショットで撃破しながら画面上部の制限時間まで残機を守り通す全方位シューティングゲーム。  
-敵にぶつかると1ミスとなり、3回ミスするとゲームオーバーとなる。タイムアップ時に残機が残っていればクリア。エネミーの撃破率からスコアボーナスを算出し、最終スコアを算出する。<br>
+敵や弾にぶつかると1ミスとなり、3回ミスするとゲームオーバーとなる。タイムアップ時に残機が残っていればクリア。エネミーの撃破率からスコアボーナスを算出し、最終スコアを算出する。<br>
 <img src="title/title_360.jpg" width = "40%">  
 - 使用ゲームエンジン:学内ゲームエンジン  
 - 使用言語:C++,HLSL  
@@ -31,15 +31,16 @@
 - 使用ツール:3dsMax,Effekseer  
 - 使用ライブラリ:DirectXTK12,BulletPhysics,Effekseer  
 - 制作人数:1人  
-- 制作期間:5ヵ月  
+- 制作期間:6ヵ月  
 - Github: [https://github.com/kw11SL/miniEngine](https://github.com/kw11SL/miniEngine)  
-- 動画URL: [https://www.youtube.com/watch?v=SCnUNTBmLDM](https://www.youtube.com/watch?v=SCnUNTBmLDM)  
+- 動画URL(第10回ゲームコンペティション時): [https://www.youtube.com/watch?v=SCnUNTBmLDM](https://www.youtube.com/watch?v=SCnUNTBmLDM)
+- 動画URL(改良版): [https://www.youtube.com/watch?v=ILkTiAyx7oo](https://www.youtube.com/watch?v=ILkTiAyx7oo)  
 - ポートフォリオURL: [https://competent-chandrasekhar-7c6367.netlify.app/surface_sweeper](https://competent-chandrasekhar-7c6367.netlify.app/surface_sweeper)  
 
 ### 2.操作方法
 ##### ___________________________________________________________________________________________________  
 - スタートボタン:タイトルからインゲームへの遷移
-- Aボタン:リザルト画面からタイトルへの遷移
+- Aボタン:リザルト画面、ゲームオーバー画面からタイトルへの遷移
 - 左スティック:自機の移動
 - 右スティック:発射方向の変更
 - 右トリガー1:弾の発射(右スティックを倒した方向に発射)
@@ -91,6 +92,8 @@
 - BulletManager.h
 - Enemy.cpp
 - Enemy.h
+- EnemyManager.cpp
+- EnemyManager.h
 - EnemyGenerator.cpp
 - EnemyGenerator.h
 - ExplosionBase.cpp
@@ -101,6 +104,8 @@
 - EnemyExplosion.h
 - Explosion.cpp
 - Explosion.h
+- ExplosionManager.cpp
+- ExplosionManager.h
 - BG.cpp
 - BG.h
 - StageBackGround.cpp
@@ -134,7 +139,6 @@
 - GameOver.cpp
 - GameOver.h
 - stdafx.h
-
 
 ### 4.技術解説
 ##### ___________________________________________________________________________________________________  

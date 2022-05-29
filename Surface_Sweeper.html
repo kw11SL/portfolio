@@ -366,7 +366,7 @@ code {
     });
   </script>
 <h2 id="%E6%B2%B3%E5%8E%9F%E9%9B%BB%E5%AD%90%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E5%B0%82%E9%96%80%E5%AD%A6%E6%A0%A1">河原電子ビジネス専門学校</h2>
-<h2 id="%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%82%BF%E3%83%BC%E7%A7%91-2%E5%B9%B4-%E8%B6%8A%E6%99%BA-%E7%BF%94%E5%B9%B3">ゲームクリエイター科　　2年　　越智　翔平</h2>
+<h2 id="%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%82%BF%E3%83%BC%E7%A7%91-3%E5%B9%B4-%E8%B6%8A%E6%99%BA-%E7%BF%94%E5%B9%B3">ゲームクリエイター科　　3年　　越智　翔平</h2>
 <h5 id="">___________________________________________________________________________________________________</h5>
 <h2 id="%E7%9B%AE%E6%AC%A1"><strong>目次</strong></h2>
 <ol>
@@ -394,7 +394,7 @@ code {
 </ul>
 <p>ゲーム概要：<br>
 カプセル状の球面ステージの各所から出現してくるエネミーをショットで撃破しながら画面上部の制限時間まで残機を守り通す全方位シューティングゲーム。<br>
-敵にぶつかると1ミスとなり、3回ミスするとゲームオーバーとなる。タイムアップ時に残機が残っていればクリア。エネミーの撃破率からスコアボーナスを算出し、最終スコアを算出する。<br>
+敵や弾にぶつかると1ミスとなり、3回ミスするとゲームオーバーとなる。タイムアップ時に残機が残っていればクリア。エネミーの撃破率からスコアボーナスを算出し、最終スコアを算出する。<br>
 <img src="title/title_360.jpg" width = "40%"></p>
 <ul>
 <li>使用ゲームエンジン:学内ゲームエンジン</li>
@@ -403,16 +403,17 @@ code {
 <li>使用ツール:3dsMax,Effekseer</li>
 <li>使用ライブラリ:DirectXTK12,BulletPhysics,Effekseer</li>
 <li>制作人数:1人</li>
-<li>制作期間:5ヵ月</li>
+<li>制作期間:6ヵ月</li>
 <li>Github: <a href="https://github.com/kw11SL/miniEngine">https://github.com/kw11SL/miniEngine</a></li>
-<li>動画URL: <a href="https://www.youtube.com/watch?v=SCnUNTBmLDM">https://www.youtube.com/watch?v=SCnUNTBmLDM</a></li>
+<li>動画URL(第10回ゲームコンペティション時): <a href="https://www.youtube.com/watch?v=SCnUNTBmLDM">https://www.youtube.com/watch?v=SCnUNTBmLDM</a></li>
+<li>動画URL(改良版): <a href="https://www.youtube.com/watch?v=ILkTiAyx7oo">https://www.youtube.com/watch?v=ILkTiAyx7oo</a></li>
 <li>ポートフォリオURL: <a href="https://competent-chandrasekhar-7c6367.netlify.app/surface_sweeper">https://competent-chandrasekhar-7c6367.netlify.app/surface_sweeper</a></li>
 </ul>
 <h3 id="2%E6%93%8D%E4%BD%9C%E6%96%B9%E6%B3%95">2.操作方法</h3>
 <h5 id="">___________________________________________________________________________________________________</h5>
 <ul>
 <li>スタートボタン:タイトルからインゲームへの遷移</li>
-<li>Aボタン:リザルト画面からタイトルへの遷移</li>
+<li>Aボタン:リザルト画面、ゲームオーバー画面からタイトルへの遷移</li>
 <li>左スティック:自機の移動</li>
 <li>右スティック:発射方向の変更</li>
 <li>右トリガー1:弾の発射(右スティックを倒した方向に発射)</li>
@@ -464,6 +465,8 @@ code {
 <li>BulletManager.h</li>
 <li>Enemy.cpp</li>
 <li>Enemy.h</li>
+<li>EnemyManager.cpp</li>
+<li>EnemyManager.h</li>
 <li>EnemyGenerator.cpp</li>
 <li>EnemyGenerator.h</li>
 <li>ExplosionBase.cpp</li>
@@ -474,6 +477,8 @@ code {
 <li>EnemyExplosion.h</li>
 <li>Explosion.cpp</li>
 <li>Explosion.h</li>
+<li>ExplosionManager.cpp</li>
+<li>ExplosionManager.h</li>
 <li>BG.cpp</li>
 <li>BG.h</li>
 <li>StageBackGround.cpp</li>
